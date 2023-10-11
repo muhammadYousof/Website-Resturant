@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Acme&family=Borel&family=Caveat&family=Courgette&family=DM+Serif+Display&family=Dancing+Script&family=DynaPuff&family=Gochi+Hand&family=Great+Vibes&family=Josefin+Sans:wght@100;500&family=Kalam:wght@300&family=Klee+One&family=Libre+Baskerville&family=Lobster&family=Lobster+Two:ital,wght@0,400;1,700&family=Lumanosimo&family=Mrs+Saint+Delafield&family=Orbitron&family=Pacifico&family=Philosopher:ital@0;1&family=Poppins:wght@700&family=Reggae+One&family=Roboto:ital,wght@1,900&family=Satisfy&family=Shadows+Into+Light&family=Tektur&family=Yellowtail&family=Zeyada&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- --------- header ------- -->
+  <div class="header">
+    <img src="./photo/logo.png" class="logo" alt="">
+    <div class="right-div">
+      <img src="./photo/tv-solid.svg" alt="" class="logo1">
+      <img src="./photo/mobile-button-solid.svg" alt="" class="logo1">
+      <img src="./photo/mobile-screen-solid.svg" alt="" class="logo1">
+      <img src="./photo/cart-shopping-solid.svg" alt="" class="logo1">
+      <img src="./photo/xmark-solid.svg" alt="" class="logo1" onclick="showMenu()">
+    </div>
+
+  </div>
+  <div class="class-logo">
+  <img src="./photo/logo.png.webp" ></div>
+  <div class="navbar" id="navlinks">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link" href="#">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">MENU</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">RESEREVATION</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">GALLERY</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">BLOG</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" >CONTACT</a>
+      </li>
+      <li class="nav-mbl">
+        <a class="nav-mbl" id="navlinks" href="#" onclick="hideMenu()" >close</a>
+      </li>
+  </div>
+  
+
+  <!-- ------------ carousel ---------- -->
+
+
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item firstbg active">
+        <div class="d-block img" alt="..." contenteditable="">
+
+          
+        </div>
+
+      </div>
+      <div class="carousel-item secondbg">
+        <div class="d-block img" alt="...">
+          
+        </div>
+
+      </div>
+      <div class="carousel-item thirdbg">
+        <div class="d-block img" alt="...">
+         
+
+   
+        </div>
+
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <div class="text-box">
+    <h2 class="H-three">Welcome To</h2>
+    <h1 class="H-one">PATO PLACE</h1>
+    <a href="" class="hero-btn-two">LOOK MENU</a>
+  </div>
+
+
+  <!-- ---------- Italian Restaurant --------- -->
+  <div>
+    <h2 class="h-4">Italian Restaurant</h2>
+    <h1 class="h-1">WELCOME</h1>
+    <P class="p">Donec quis lorem
+      Nunc eu odio mi. Morbi nec <br> lobortis est.
+      Sed fringilla, nunc sed imperdiet lacinia,
+      nisl ante egestas mi,<br> ac facilisis ligula sem id neque.</P>
+  </div>
+  <!-- ---------- container-card --------- -->
+  <div class="container-card">
+    <img src="./photo/our-story-01.jpg.webp" alt="" class="photo-ONE">
+  </div>
+
+  <!-- ----------- Discover Pato Place ------- -->
+
+  <div class="Discover Pato Place">
+    <h3>DISCOVER</h3>
+    <h1>Pato Place</h1>
+    <img  alt="" class="pato-place">
+    <div class="empty-discover"></div>
+  </div>
+
+  <!-- ---------- card-group --------- -->
+
+  <div class="card-group">
+    <div class="card">
+      <img src="./photo/intro-01.jpg.webp" class="card-img-top card-one" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">ROMANTIC RESTAURANT</h5>
+        <p class="card-text">Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros..</p>
+        <p class="card-text"><small class="text-body-secondary">LEARN MORE </small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./photo/intro-02.jpg.webp" class="card-img-top card-one" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">DELICIOUS FOOD</h5>
+        <p class="card-text">Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh urna.</p>
+        <p class="card-text"><small class="text-body-secondary">LEARN MORE </small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./photo/intro-04.jpg.webp" class="card-img-top card-one" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">RED WINES YOU LOVE</h5>
+        <p class="card-text">Sed ornare ligula eget tortor tempor, quis porta tellus dictum..</p>
+        <p class="card-text"><small class="text-body-secondary">LEARN MORE </small></p>
+      </div>
+    </div>
+  </div>
+
+<div>
+  <img src="./photo/img.6.jpg" class="img-fluid img-baner" alt="...">
+</div>
+
+  <!-- --------- card-group --------- -->
+  <div class="card-group">
+    <div class="card">
+      <img src="./photo/pexels-eduardo-krajan-15476361.jpg" class="card-img-top card-one" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">A Zinger Burger is KFC's original fried chicken recipe with a spicy twist. Hot fried
+          chicken is sandwiched between a sesame bun together with lettuce and a creamy dressing for a classic chicken
+          burger with a hint of spice.04-Mar-2021.</p>
+        <div class="box" onclick="ShowMenu()">
+          <a href="#" class="hero-btn-2">Order Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./photo/pexels-vilnis-husko-13573666.jpg" class="card-img-top card-one" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">A Zinger Burger is KFC's original fried chicken recipe with a spicy twist. Hot fried
+          chicken is sandwiched between a sesame bun together with lettuce and a creamy dressing for a classic chicken
+          burger with a hint of spice.04-Mar-2021.</p>
+        <div class="box" onclick="ShowMenu()">
+          <a href="#" class="hero-btn-2">Order Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./photo/pexels-valeria-boltneva-580612.jpg" class="card-img-top card-one" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">A Zinger Burger is KFC's original fried chicken recipe with a spicy twist. Hot fried
+          chicken is sandwiched between a sesame bun together with lettuce and a creamy dressing for a classic chicken
+          burger with a hint of spice.04-Mar-2021.</p>
+        <div class="box" onclick="ShowMenu()">
+          <a href="#" class="hero-btn-2">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ---------- Diccover --------- -->
+
+  <div>
+    <h4 class="text-one">Diccover</h4>
+    <h1 class="text-two">OUR MENU</h1>
+  </div>
+
+  <!-- ---------- container --------- -->
+  <div class="container">
+    <img src="./photo/our-menu-01.jpg.webp" alt="" class="pic-one">
+    <img src="./photo/our-menu-05.jpg.webp" alt="" class="pic-two">
+    <img src="./photo/our-menu-08.jpg.webp" alt="" class="pic-three">
+    <img src="./photo/our-menu-10.jpg.webp" alt="" class="pic-four">
+    <a href="#" class="hero-btn-3">LUNCH</a>
+    <a href="#" class="hero-btn-4">DINNER</a>
+    <a href="#" class="hero-btn-5">DRINK</a>
+    <a href="#" class="hero-btn-6">STARTERS</a>
+    <a href="#" class="hero-btn-7">DESSERT</a>
+    <a href="#" class="hero-btn-8">HAPPY HOUR</a>
+  </div>
+  <div class="container-one">
+    <img src="./photo/our-menu-13.jpg.webp" alt="" class="pic-five">
+    <img src="./photo/our-menu-16.jpg.webp" alt="" class="pic-six">
+  </div>
+
+
+
+  <!-- ---------- card ---------- -->
+
+
+  <div class="carousel">
+    <div class="carousel-card">
+      <div>
+        <img src="./photo/pexels-pixabay-326311.jpg" alt="" class="card-imge">
+      </div>
+      <div class="container-1-card">
+        <div class="empty"></div>
+        <div class="imge">
+          <img src="./photo/pexels-marta-dzedyshko-2067628.jpg" alt="" class="card-imge-2">
+        </div>
+        <div class="contant">
+          <h1 class="welcome">WELCOME</h1>
+          <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti reprehenderit, optio quia
+            sequi amet
+            commodi ipsum .</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- --------- form -----------  -->
+
+  <div class="booking-div1">
+    <div class="booking-div2">
+      <h3 class="booking-h3">
+        RESEREVATION
+      </h3>
+      <h1 class="booking-h1">
+        Book Table
+      </h1>
+
+
+
+
+    </div>
+
+
+    <div class="booking-form-1">
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">Date</label>
+          <input type="text" class="form-control" id="validationCustom01" value="" required>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Name</label>
+          <input type="text" class="form-control" id="validationCustom02" value="" required>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">Phone</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">Time</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>11:00 am</option>
+            <option>12:00 am</option>
+            <option>01:00 am</option>
+            <option>02:00 am</option>
+            <option>03:00 am</option>
+            <option>04:00 am</option>
+            <option>05:00 am</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">Email</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">people</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>1 Person</option>
+            <option>2 People</option>
+            <option>3 People</option>
+            <option>4 People</option>
+            <option>5 People</option>
+            <option>6 People</option>
+            <option>7 People</option>
+          </select>
+        </div>
+        <div class="booking-btn">
+          <button class="btn-btn-secondary" type="submit">Book Table</button>
+        </div>
+      </form>
+      <div class="container-booking">
+        <img src="./photo/booking-01.jpg.webp" alt="" class="booking-img">
+      </div>
+    </div>
+
+    <!-- ----------- review section --------/ -->
+    <div>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h3 class="h3-review">Customers Say</h3>
+            <h1 class="h1-review">Review</h1>
+            <div class="container-review">
+              <img src="./photo/avatar-01.jpg.webp" class="d-block review-img " alt="...">
+              <p class="p-auto"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="img-right-2">
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-solid fa-star star-icon"></i>
+                <p class="p-one">MARIE SIMMONS-NEWYORK</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <h3 class="h3-review">Customers Say</h3>
+            <h1 class="h1-review">Review</h1>
+            <div class="container-review">
+              <img src="./photo/avatar-04.jpg.webp" class="d-block review-img" alt="...">
+              <p class="p-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="img-right-2">
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-solid fa-star star-icon"></i>
+                <p class="p-one">MARIE SIMMONS-NEWYORK</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <h3 class="h3-review">Customers Say</h3>
+            <h1 class="h1-review">Review</h1>
+            <div class="container-review">
+              <img src="./photo/avatar-05.jpg.webp" class="d-block review-img" alt="...">
+              <p class="p-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="img-right-2">
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-solid fa-star star-icon"></i>
+                <i class="fa-solid fa-star star-icon"></i>
+                <p class="p-one">MARIE SIMMONS-NEWYORK</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <iframe class="video" width="95%" height="651" src="https://www.youtube.com/embed/5k1hSu2gdKE"
+          title="The Top Five Secrets of a Successful Restaurant" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+    <!-- ----------- card-group --------- -->
+
+    <div class="card-group">
+      <div class="card">
+        <img src="./photo/blog-01.jpg.webp" class="card-img-top  card-one" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">BEST PLACES FOR WINE</h5>
+          <p class="card-text">Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
+          <div class="box" onclick="ShowMenu()">
+            <a href="#" class="hero-btn-2">Visit Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./photo/blog-02.jpg.webp" class="card-img-top  card-one" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">EGGS AND CHEESE</h5>
+          <p class="card-text">Duis elementum, risus sit amet lobortis nunc justo condimentum ligula, vitae feugiat.
+          </p>
+          <div class="box" onclick="ShowMenu()">
+            <a href="#" class="hero-btn-2">Visit Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./photo/blog-03.jpg.webp" class="card-img-top  card-one" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">STYLE THE WEDDING PARTY</h5>
+          <p class="card-text">Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
+          <div class="box" onclick="ShowMenu()">
+            <a href="#" class="hero-btn-2">Visit Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------- container search ----- -->
+    <div class="container-search">
+      <h2 class="h-2">SPECIALS SIGN UP</h2>
+      <input type="email" placeholder="Email adrress" class="email">
+      <button class="hero-btn-three">SIGN-UP</button>
+
+    </div>
+
+
+
+
+
+
+    <!-- -------- <footer> ----------- -->
+
+
+
+
+    <div class="container-footer">
+      <div class="container-pic1">
+        <h3 class="footer-gellery">GELLERY</h3>
+        <img src="./photo/photo-gallery-thumb-01.jpg.webp" alt="" class="frame-1">
+        <img src="./photo/photo-gallery-thumb-02.jpg.webp" alt="" class="frame-1">
+        <img src="./photo/photo-gallery-thumb-03.jpg.webp" alt="" class="frame-1">
+        <img src="./photo/photo-gallery-thumb-04.jpg.webp" alt="" class="frame-1">
+      </div>
+      <div class="container-pic2">
+        <img src="./photo/photo-gallery-thumb-05.jpg.webp" alt="" class="frame-2">
+        <img src="./photo/photo-gallery-thumb-06.jpg.webp" alt="" class="frame-2">
+        <img src="./photo/photo-gallery-thumb-07.jpg.webp" alt="" class="frame-2">
+        <img src="./photo/photo-gallery-thumb-08.jpg.webp" alt="" class="frame-2">
+      </div>
+      <div class="container-pic3">
+        <img src="./photo/photo-gallery-thumb-09.jpg.webp" alt="" class="frame-3">
+        <img src="./photo/photo-gallery-thumb-10.jpg.webp" alt="" class="frame-3">
+        <img src="./photo/photo-gallery-thumb-11.jpg.webp" alt="" class="frame-3">
+        <img src="./photo/photo-gallery-thumb-12.jpg.webp" alt="" class="frame-3">
+      </div>
+      <div class="row">
+        <div class="div-1">
+          <h3>CONTACT US</h3>
+          <p class="p-one"> 8th floor, 379 Hudson St, New York, NY 10018 <br>
+            (+1) 96 716 6879 <br>
+            contact@site.com</p>
+        </div>
+
+        <div class="div-2">
+          <h3>OPENING TIMES</h3>
+          <p class="p-one">09:30 AM – 11:00 PM <br> <br>
+            Every Day</p>
+        </div>
+      </div>
+
+
+      <div class="div-3">
+        <h3>LATEST TWITTER</h3>
+        <p class="p-one"> @colorlib
+          Activello is a good option. It has a slider built into <br> displays the featured image in the
+          slider. <br> https://buff.ly/2zaSfAQ <br> <br>
+
+          21 Dec 2017</p> <br> <br>
+
+        <p class="p-one-1"> @colorlib
+          Activello is a good option. It has a slider built into<br> displays https://buff.ly/2zaSfAQ <br>
+    
+          21 Dec 2017
+        </p>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.marginLeft = "40%";
+        }
+        function hideMenu(){
+            navlinks.style.marginLeft = "-300px";
+        }
+    </script>
+
+</body>
+
+</html>
